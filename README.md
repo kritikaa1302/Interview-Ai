@@ -70,7 +70,6 @@ npm run dev        # http://localhost:3000
 cd Frontend
 npm run dev        # http://localhost:5173
 ```
-
 Open `http://localhost:5173`, register an account, and try it out.
 
 ## Notes
