@@ -3,14 +3,12 @@
 An AI-powered interview preparation tool built on the MERN stack. Paste in a job description plus your resume (or a quick self-description), and it generates a tailored interview report — likely technical/behavioral questions, skill gaps, and a day-by-day prep plan — using the Gemini API. It can also generate and download a tailored, AI-written resume as a PDF.
 
 ## Tech Stack
-
 - **Frontend:** React 19 + Vite, React Router, Axios, Sass
 - **Backend:** Node.js + Express 5, MongoDB (Mongoose), JWT auth (cookie-based)
 - **AI:** Google Gemini API (`@google/genai`)
 - **PDF:** `pdf-parse` (reading uploaded resumes), Puppeteer (generating downloadable resume PDFs)
 
 ## Project Structure
-
 ```
 interview-ai-yt-main/
 ├── Backend/     # Express API, MongoDB models, auth, AI service
