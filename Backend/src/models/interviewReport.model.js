@@ -45,7 +45,6 @@ const skillGapSchema = new mongoose.Schema({
 }, {
     _id: false
 })
-
 const preparationPlanSchema = new mongoose.Schema({
     day: {
         type: Number,
