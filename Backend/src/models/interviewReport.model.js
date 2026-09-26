@@ -15,7 +15,6 @@ const technicalQuestionSchema = new mongoose.Schema({
 }, {
     _id: false
 })
-
 const behavioralQuestionSchema = new mongoose.Schema({
     question: {
         type: String,
