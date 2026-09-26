@@ -1,6 +1,4 @@
 const mongoose = require('mongoose')
-
-
 const blacklistTokenSchema = new mongoose.Schema({
     token: {
         type: String,
@@ -9,7 +7,6 @@ const blacklistTokenSchema = new mongoose.Schema({
 }, {
     timestamps: true
 })
-
 const tokenBlacklistModel = mongoose.model("blacklistTokens", blacklistTokenSchema)
 
 
